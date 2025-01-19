@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clarah Chebet Mentorship Program: Empowering Future Leaders">
+    <title>Clarah Chebet Mentorship - Future Leadership</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animations CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(90deg, rgba(0, 53, 107, 0.9), rgba(21, 32, 43, 0.85)),
+                        url('https://source.unsplash.com/1600x900/?students,leadership,motivation,teamwork') no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .hero .portrait-placeholder {
+            flex: 0 1 300px; /* Flexible width for responsiveness */
+            height: 400px;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 53, 107, 0.8));
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            margin: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .hero .hero-text {
+            flex: 1; /* Proper space allocation between text and placeholder */
+            padding: 20px;
+            text-align: left;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.2;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .hero .btn-primary {
+            background: linear-gradient(90deg, #ff007f, #5900ff);
+            font-size: 1.2rem;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-transform: uppercase;
+        }
+
+        .hero .btn-primary:hover {
+            background: linear-gradient(90deg, #e6006f, #4500cc);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero .hero-content {
+                flex-direction: column; /* Stack placeholder on top for small screens */
+            }
+
+            .hero .portrait-placeholder {
+                height: 300px;
+                width: 80%;
+            }
+
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background: #111;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <!-- Placeholder Block -->
+            <div class="portrait-placeholder">
+                Placeholder for Clarah's Portrait
+            </div>
+            <!-- Text Content Block -->
+            <div class="hero-text">
+                <h1>Mentorship for Future Leaders</h1>
+                <p>Join Clarah Chebet's mentorship program and unlock your potential to become a leader in the world of tomorrow. Develop the mindset, skills, and confidence to succeed in any stage of life.</p>
+                <a href="#about" class="btn btn-primary">Explore More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Sections -->
+    <section id="about" style="padding: 50px 0;">
+        <div class="container">
+            <h2>About the Program</h2>
+            <p>The mentorship program focuses on equipping students to lead confidently in a rapidly changing world. With one-on-one guidance, participants gain leadership skills, decision-making abilities, and strategies for personal growth.</p>
+        </div>
+    </section>
+
+    <!-- Add further sections/content as needed -->
+
+    <!-- Contact Form Section -->
+    <section id="contact" style="padding: 50px 0; background: #2c3e50; color: white;">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input class="form-control mb-3" type="text" placeholder="Your Name" required>
+                <input class="form-control mb-3" type="email" placeholder="Your Email" required>
+                <textarea class="form-control mb-3" rows="4" placeholder="Your Message" required></textarea>
+                <button class="btn btn-primary btn-block" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Clarah Chebet. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animations JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
