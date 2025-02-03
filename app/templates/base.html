@@ -36,6 +36,7 @@
     <script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
 
     <!-- Main JS File -->
     <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
@@ -45,11 +46,8 @@
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-        <a href="{{url_for('main.index')}}" class="logo d-flex align-items-center me-auto">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="{{ url_for('static', filename='assets/img/ClarityMentorship.png') }}" alt="CLARITY MENTORSHIP"
-                 style="height: auto; width: auto;">
-            <!-- <h1 class="sitename">Clarity Mentorship</h1> -->
+        <a href="{{ url_for('main.index') }}" class="logo d-flex align-items-center me-auto">
+            <p class="sitename">Clarity Mentorship</p>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -62,7 +60,8 @@
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-<a class="btn-getstarted" href="{{ url_for('main.contact') }}" style="display: flex; justify-content: center; align-items: center; text-align: center;">Contact Us</a>
+        <a class="btn-getstarted" href="{{ url_for('main.contact') }}"
+           style="display: flex; justify-content: center; align-items: center; text-align: center;">Contact Us</a>
     </div>
 </header>
 
@@ -96,7 +95,8 @@
 
             <div class="col-lg-4 col-md-12 footer-newsletter">
                 <h4>Our Newsletter</h4>
-                <p>Get latest updates on how to mentor future leaders, participate in team building, subscribe to our newsletter!</p>
+                <p>Get latest updates on how to mentor future leaders, participate in team building, subscribe to our
+                    newsletter!</p>
                 <form action="#" method="post" class="php-email-form">
                     <div class="newsletter-form"><input type="email" name="email"><input type="submit"
                                                                                          value="Subscribe"></div>
@@ -110,7 +110,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Clarity Mentorship</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="sitename" style="font-size:24px;">Clarity Mentorship</strong>
+            <span>All Rights Reserved</span></p>
         <div class="credits">
             Designed by <a href="https://glc-tcg6.onrender.com/">Cheruiyot Emmanuel</a> Distributed by <a
                 href="https://glc-tcg6.onrender.com/">Genius Lab Consortium</a>
