@@ -948,12 +948,15 @@ section,
   .hero h2 {
     font-size: 32px;
   }
+  .hero-content{
+  margin:8px;
+  }
 
   .hero p {
     font-size: 18px;
     text-align: justify; /* Justifies paragraph text */
     line-height: 1.8;   /* Sets comfortable line spacing */
-    margin-bottom: 20px;
+    margin-left:100px;
   }
 }
 
