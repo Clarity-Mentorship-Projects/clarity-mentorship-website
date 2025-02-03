@@ -948,6 +948,12 @@ section,
   .hero h2 {
     font-size: 32px;
   }
+
+.hero-content h5 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+}
   .hero-content{
   margin:8px;
   }
