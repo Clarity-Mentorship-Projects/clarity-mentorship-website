@@ -961,7 +961,7 @@ section,
     font-size: 32px;
   }
 
-.hero-content h5 {
+.hero-content h4 {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;    /* Centers vertically */
