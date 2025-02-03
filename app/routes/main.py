@@ -45,15 +45,19 @@ def about():
 @main.route('/courses', methods=['GET','POST'])
 def services():
     return render_template('courses.html')
-
-@main.route('/pricing', methods=['GET','POST'])
-def pricing():
-    return render_template('pricing.html')
-
 @main.route('/trainers', methods=['GET','POST'])
 def projects():
     return render_template('trainers.html')
 
 @main.route('/events', methods=['GET','POST'])
-def contact():
+def events():
     return render_template('events.html')
+
+@main.route('/contact', methods=['GET','POST'])
+def contact():
+    return render_template('contact.html')
+
+
+
+
+
